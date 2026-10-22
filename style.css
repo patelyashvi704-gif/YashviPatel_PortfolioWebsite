@@ -26,6 +26,7 @@ a{color:var(--teal)}
 .btn.ghost{background:transparent;border-color:var(--navy);color:var(--navy)}
 .btn.ghost:hover{background:var(--navy);color:var(--white)}
 .btn.small{padding:.45rem 1rem;font-size:.95rem}
+
 .band{padding:3.5rem 5vw;max-width:1150px;margin:auto}
 .band.first{padding-top:4rem;min-height:60vh}
 .grid{display:grid;gap:1.6rem}
@@ -63,3 +64,19 @@ input:focus,textarea:focus{border-color:var(--teal);outline:none}
 .site-footer a{margin:0 1.2rem 0 0}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+/* Soft Skills Pill Badges */
+.soft-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.badge {
+  background-color: #1a2238;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
